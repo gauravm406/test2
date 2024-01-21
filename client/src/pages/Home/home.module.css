@@ -1,0 +1,233 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: relative;
+  height: 100vh;
+}
+
+.main_height_keyword_false {
+  height: 100vh;
+}
+
+.main_height {
+  height: 70vh;
+}
+
+.loader {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover {
+  position: absolute;
+  z-index: 10;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.header {
+  width: 90%;
+  height: 4.238rem;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.header_container_1 {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  background: rgba(217, 217, 217, 0.115);
+  box-shadow: inset 3.93818px -3.93818px 3.93818px rgba(182, 182, 182, 0.43),
+    inset -3.93818px 3.93818px 3.93818px rgba(255, 255, 255, 0.43);
+  backdrop-filter: blur(25.0074px);
+  border-radius: 8.89648px;
+}
+
+.header_container_2 {
+  height: 100%;
+  width: calc(100% - 3rem);
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 1.5rem;
+}
+
+.links {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1120625rem;
+  line-height: 1.25rem;
+}
+
+.right_link_container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.link_box {
+  width: 162.81px;
+  height: 34.7px;
+  border: 2.66895px solid #ffffff;
+  border-radius: 8.89648px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover_heading {
+  margin: 0rem auto 0rem auto;
+  width: 80%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 71.1719px;
+  line-height: 88px;
+  color: #ffffff;
+  text-shadow: 0px 3.55859px 3.55859px rgba(0, 0, 0, 0.25);
+}
+
+.search_box {
+  width: 50%;
+  margin: 0rem auto 0rem auto;
+  height: 67.61px;
+  background: rgba(217, 217, 217, 0.115);
+  box-shadow: inset 3.93818px -3.93818px 3.93818px rgba(182, 182, 182, 0.43),
+    inset -3.93818px 3.93818px 3.93818px rgba(255, 255, 255, 0.43);
+  backdrop-filter: blur(25.0074px);
+  border-radius: 8.89648px;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 0rem 1rem;
+  color: white;
+}
+
+.search_box_icon {
+  color: white;
+  font-size: 1.3rem;
+  width: 2rem;
+}
+
+.search_box_input {
+  height: 60%;
+  background-color: transparent;
+  padding-left: 1rem;
+  border: none;
+  width: calc(100% - 2rem - 2rem - 70.36px);
+  color: white;
+  font-size: 1.3rem;
+  outline: none;
+}
+
+.search_box_input::placeholder {
+  color: white;
+}
+
+.search_box_button {
+  width: 70.36px;
+  height: 34.73px;
+  border: 2.67188px solid #ffffff;
+  border-radius: 8.90625px;
+  background-color: transparent;
+  color: white;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.trending_container {
+  margin: 1rem auto;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  color: white;
+  height: 39.19px;
+  background: rgba(217, 217, 217, 0.115);
+  box-shadow: inset 3.9425px -3.9425px 3.9425px rgba(182, 182, 182, 0.43),
+    inset -3.9425px 3.9425px 3.9425px rgba(255, 255, 255, 0.43);
+  backdrop-filter: blur(25.0349px);
+  border-radius: 8.90625px;
+  gap: 0.5rem;
+  padding: 0 1rem;
+}
+
+.search_result_heading {
+  font-weight: 700;
+  font-size: 42.6141px;
+  line-height: 87px;
+  color: #ffffff;
+  text-shadow: 0px 3.55118px 3.55118px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.tags_main_container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 1rem 0rem;
+  gap: 1rem;
+  justify-content: flex-start;
+}
+
+.tags_main_container div {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 2px 6px;
+  margin: 0rem 0.5rem;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+  z-index: 30;
+}
+
+.tags_main_container div:hover {
+  background-color: #f4f0f0;
+}
+
+.grid_conatainer {
+  width: 100%;
+}
+
+.logout_bg_color {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+  .cover_heading {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+  }
+
+  .homepage {
+    display: none;
+  }
+
+  .links {
+    font-size: 0.9rem;
+  }
+
+  .link_box {
+    width: 120.81px;
+    height: 34.7px;
+  }
+
+  .search_box {
+    width: 80%;
+  }
+
+  .search_result_heading {
+    font-size: 2rem;
+    height: 50px;
+  }
+}

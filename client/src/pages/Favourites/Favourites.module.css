@@ -1,0 +1,48 @@
+.loader {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_container {
+  margin: 2rem auto;
+  padding: 0.5rem 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.images_container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.masonry_grid_item {
+  margin: 0 20px 10px 0;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.img_card {
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.img_card:hover {
+  transform: scale(1.02);
+}
+
+.images_container div img {
+  object-fit: cover;
+}

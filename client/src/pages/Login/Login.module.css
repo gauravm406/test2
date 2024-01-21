@@ -1,0 +1,22 @@
+.main_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form_container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form_container input {
+  padding-left: 0.5rem;
+  height: 1.5rem;
+}
+
+.form_container button {
+  height: 1.5rem;
+  cursor: pointer;
+}
