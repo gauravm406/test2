@@ -33,7 +33,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Live Demo
 
-https://starlit-boba-8d5fb7.netlify.app/
+https://chic-baklava-380252.netlify.app/
 
 ## Authors
 
